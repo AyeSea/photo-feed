@@ -1,10 +1,5 @@
 class StaticPagesController < ApplicationController
 	def index
-		if params[:flickr_id]
-			#access api to load user info
-		else
-			flash[:error] = "Please enter a user to search for."
-			render
-		end
+		@flickr_id = params[:flickr_id]
 	end
 end

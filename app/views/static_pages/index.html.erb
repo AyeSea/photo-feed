@@ -2,5 +2,9 @@
 
 <%= form_tag('/', method: :get) do %>
 	<%= text_field_tag(:flickr_id) %>
-	<%= submit_tag("Find User's Photos") %>
+	<%= submit_tag("Load User's Photos") %>
+<% end %>
+
+<% cache("flickr_sidebar") do %>
+	<%= render_flickr_sidebar_widget(@flickr_id) %>
 <% end %>
