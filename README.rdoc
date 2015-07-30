@@ -1,5 +1,5 @@
-== README
+== Photo Feed
 
 A simple photo feed app that interacts with Flickr's API to upload photos. Built as part of The Odin Project.
 
-For more details, visit the project page at http://www.theodinproject.com/ruby-on-rails/apis?ref=lc-pb.
+More details here[http://www.theodinproject.com/ruby-on-rails/apis?ref=lc-pb].
